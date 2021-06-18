@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+
+
+
+
+
+body{
+   background: #e209e2;
+   font-size: 14px;
+   line-height: 22px;
+   color: aqua;
+
+
+    
+
+}
+
+
+
+.bold{
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.semi_bold
+{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.resume
+{
+  width: 800px;
+  height: auto;
+  display: flex;
+  margin: 50px auto;
+
+
+}
+
+.resume .resume_left
+{
+    width: 280px;
+    background: blue;
+}
+
+.resume .resume_left .resume_profile
+{
+width: 100%;
+height: 280px
+}
+
+.resume .resume_left .resume_profile img{
+    width: 100%;
+    height: 100%;
+}
+
+.resume .resume_left .resume_content
+{
+    padding: 0 25px;
+}
+
+.resume .title
+{
+    margin-bottom: 20px;
+}
+
+.resume .resume_left .bold
+{
+    color: #fff;
+}
+
+.resume .resume_left .regular
+{
+    color: darkgreen;
+}
+
+.resume .resume_right
+{
+    width: 520px;
+    background: chartreuse;
+    padding: 25px;
+}
+
+.resume .resume_right .bold
+{
+    color: darkgoldenrod;
+
+}
+
+.resume .resume_right .resume_objectives ul{
+    padding-left: 40px ;
+    overflow: hidden;
+}
